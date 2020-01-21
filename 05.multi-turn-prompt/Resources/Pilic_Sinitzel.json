@@ -1,0 +1,40 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Large",
+          "weight": "Bolder",
+          "text": "YEMEK MENÜSÜ"
+        },
+        {
+          "type": "Image",
+          "url": "https://i.pinimg.com/736x/15/0f/e2/150fe29b538e90f7acded8fb5f63bf5a.jpg",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Ana Yemek :",
+              "value": "Piliç Şinitzel"
+            },
+            {
+              "title": "Kalori :",
+              "value": "230 Kcal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

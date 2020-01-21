@@ -1,0 +1,45 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "EĞİTİMLER"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i1.wp.com/arceliktrainingcatalogue.com/wp-content/uploads/2019/02/Yeliz-Kum-Ercan.jpg?fit=165,165",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Eğitim Adı:",
+              "value": "BlackBox "
+            },
+            {
+              "title": "Eğitmen:",
+              "value": "Yeliz Kum Ercan"
+            },
+            {
+              "title": "Tarih:",
+              "value": "06 Eylül"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

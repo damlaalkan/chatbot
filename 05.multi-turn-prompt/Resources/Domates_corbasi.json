@@ -1,0 +1,40 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "YEMEK MENÜSÜ"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://lezzet.blob.core.windows.net/images-xxlarge-recipe/domates_corbasi-2dbfe3ff-e535-432d-88ba-c2fab0238174.jpg",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Çorba :",
+              "value": "Domates Çorbası"
+            },
+            {
+              "title": "Kalori :",
+              "value": "173 Kcal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

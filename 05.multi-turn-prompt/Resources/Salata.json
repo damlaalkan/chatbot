@@ -1,0 +1,40 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "YEMEK MENÜSÜ"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://tigrerestaurant.co.uk/wp-content/uploads/2018/10/Salata-de-Rosii-Asortata-Tomato-Cucumber-Salad.jpg",
+          "size": "Stretch ",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Salata Bar :",
+              "value": "Salata"
+            },
+            {
+              "title": "Kalori :",
+              "value": "0 Kcal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

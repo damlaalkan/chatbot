@@ -1,0 +1,40 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "YEMEK MENÜSÜ"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://www.propertyturkey.com/uploads/pages/larg/mozaik_pasta.jpg",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Tatlı :",
+              "value": "Mozaik Pasta"
+            },
+            {
+              "title": "Kalori :",
+              "value": "320 Kcal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

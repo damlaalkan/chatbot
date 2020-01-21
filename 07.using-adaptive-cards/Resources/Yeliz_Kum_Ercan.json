@@ -1,0 +1,51 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    {
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arçelik_logo.svg/800px-Arçelik_logo.svg.png",
+            "size": "Large",
+            "altText": ""
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Image",
+                    "url": "https://i1.wp.com/arceliktrainingcatalogue.com/wp-content/uploads/2019/02/Yeliz-Kum-Ercan.jpg?fit=165,165",
+                    "size": "Stretch",
+                    "altText": ""
+                },
+                {
+                    "type": "FactSet",
+                    "spacing": "Padding",
+                    "facts": [
+                        {
+                            "title": "Eğitim Adı :",
+                            "value": "BlackBox"
+                        },
+                        {
+                            "title": "Ad Soyad :",
+                            "value": "Yeliz Kum Ercan"
+                        },
+                        {
+                            "title": "Tarih :",
+                            "value": "06 Eylül"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "View",
+        "url": "http://arceliktrainingcatalogue.com/leader-in-you/yetkinlik-egitimleri/musterilerimize-odaklaniriz/stratejik-iletisim-etki-ve-ikna/"
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

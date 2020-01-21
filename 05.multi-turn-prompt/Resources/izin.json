@@ -1,0 +1,66 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+     "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "style": "Person",
+                                    "url": "http://chittagongit.com/images/schedule-icon-png/schedule-icon-png-27.jpg",
+                                    "size": "Small"
+                                }
+                            ],
+                            "width": "auto"
+                        },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "text": "Yıllık İzin Onayı",
+                            "wrap": true
+                          }
+                        ],
+                        "width": "stretch"
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "FactSet",
+                    "height": "stretch",
+                    "facts": [
+                        {
+                            "title": "Ad Soyad :",
+                            "value": "Irmak Şişmanoğlu"
+                        },
+                        {
+                            "title": "Tarih Aralığı :",
+                            "value": "16/08/2019 - 22/08/2019"
+                        },
+                        {
+                            "title": "İzin Giriş Tarihi :",
+                            "value": "10/08/2019"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

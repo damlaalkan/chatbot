@@ -1,0 +1,89 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Center",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "text": "Ring Servisi"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://cdn1.iconfinder.com/data/icons/camping-essentials-colored/30/Class_B_camper-512.png",
+              "width": "100px",
+              "height": "100px",
+              "altText": ""
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "\n\n"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Right",
+              "size": "Medium",
+              "weight": "Bolder",
+              "text": "Sütlüce-Çayırova            "
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "\n\n"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "size": "Medium",
+              "weight": "Bolder",
+              "text": "Saat: 11:00"
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "horizontalAlignment": "Center",
+      "weight": "Bolder",
+      "text": "_____________________________________________________"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "                 \n"
+    },
+    {
+      "type": "Image",
+      "horizontalAlignment": "Center",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://araciste.koczer.com"
+      },
+      "url": "https://araciste.koczer.com/content/images/logo.png",
+      "altText": ""
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arçelik_logo.svg/800px-Arçelik_logo.svg.png",
+          "size": "Large",
+          "altText": ""
+        },
+        {
+          "type": "TextBlock",
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "text": "Onayda Bekleyen İşlemler"
+        },
+        {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "Yıllık İzin Onayı"
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Ad Soyad :",
+              "value": "Irmak Şişmanoğlu"
+            },
+            {
+              "title": "Tarih Aralığı :",
+              "value": "16/08/2019 - 22/08/2019"
+            },
+            {
+              "title": "İzin Giriş Tarihi :",
+              "value": "10/08/2019"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Onaylıyorum",
+      "card": {
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Onaylamıyorum",
+      "url": "http://adaptivecards.io"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

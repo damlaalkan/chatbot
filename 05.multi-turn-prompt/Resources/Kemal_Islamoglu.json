@@ -1,0 +1,45 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "EĞİTİMLER"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i2.wp.com/arceliktrainingcatalogue.com/wp-content/uploads/2019/02/Kemal-İslamoğlu.jpg?zoom=0.7225000202655792&fit=258,293",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Eğitim:",
+              "value": "Stratejik iletişim: Etki ve İkna "
+            },
+            {
+              "title": "Eğitmen:",
+              "value": "Kemal Islamoglu"
+            },
+            {
+              "title": "Tarih:",
+              "value": "04-05 Eylül"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

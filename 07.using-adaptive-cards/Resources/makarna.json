@@ -1,0 +1,44 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arçelik_logo.svg/800px-Arçelik_logo.svg.png",
+      "size": "Large",
+      "altText": ""
+    },
+    {
+      "type": "TextBlock",
+      "text": "YEMEK MENÜSÜ"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://i1.imgiz.com/data/videoshots/7066/7066060-6985.jpg",
+          "size": "Stretch",
+          "width": "400px",
+          "height": "300px",
+          "altText": ""
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Ana Yemek :",
+              "value": "Spagetti Makarna"
+            },
+            {
+              "title": "Kalori :",
+              "value": "319 Kcal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
